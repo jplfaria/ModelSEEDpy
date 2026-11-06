@@ -1263,7 +1263,7 @@ class MSBuilder:
         classic_biomass=False,
     ):
         builder = MSBuilder(genome, template)
-        model = builder.build(
+        model = builder.build_base_model(
             model_id,
             index,
             allow_all_non_grp_reactions,
